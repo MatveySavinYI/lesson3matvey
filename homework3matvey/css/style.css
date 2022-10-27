@@ -26,13 +26,20 @@ header {
 h1 {
     color: #003395;
     margin-bottom: 27px;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 63px;
+}
+
+.friend {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 nav {
     background-color: #003395;
     padding-top: 27px;
     padding-bottom: 26px;
-    margin-bottom: 56px;
 }
 
 nav a {
@@ -40,11 +47,20 @@ nav a {
     text-decoration: none;
     display: inline-block;
     margin-right: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 207.9%;
+}
+
+main {
+    padding-top: 57px;
+    padding-bottom: 62;
 }
 
 .first {
     display: inline-block;
     width: 754px;
+    vertical-align: top;
 }
 
 h2 {
@@ -53,12 +69,18 @@ h2 {
     border-top: 2px solid #003395;
     border-bottom: 2px solid #003395;
     color: #003395;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
 
 }
 
 .line {
     padding-top: 16px;
     padding-bottom: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .colortext {
@@ -68,7 +90,8 @@ h2 {
 .second {
     display: inline-block;
     width: 362px;
-    padding-left: 30px;
+    margin-left: 26px;
+    vertical-align: top;
 }
 
 .news {
@@ -81,6 +104,9 @@ h3 {
     padding: 14px 17px;
     background-color: #24B0FF;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
 }
 
 .one {
@@ -88,22 +114,31 @@ h3 {
 }
 
 .ptwo {
-    line-height: 163.3%
+    line-height: 163.3%;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163.35%;
 }
 
 .some {
     border: 2px solid #33008D;
     padding: 22px 19px 26px 19px;
-    margin-bottom: 158.4px;
+    margin-bottom: 158px;
 }
 
 .two {
     margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
 }
 
 ul {
     list-style: none;
-    line-height: 163.3%
+    line-height: 163.3%;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163.35%;
 }
 
 li a {
@@ -114,9 +149,6 @@ footer {
     background: linear-gradient(180deg, #003395 0%, #00205F 100%);
     padding-bottom: 83px;
     padding-top: 45px;
-}
-
-.end {
     text-align: right;
     color: #FFFFFF;
 }
