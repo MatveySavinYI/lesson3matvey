@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 120px;
+    padding-bottom: 138px;
+    background-image: url(../img/sky.png);
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 1146px;
+    margin: auto;
+}
+
+h1 {
+    color: #003395;
+    margin-bottom: 27px;
+}
+
+nav {
+    background-color: #003395;
+    padding-top: 27px;
+    padding-bottom: 26px;
+    margin-bottom: 56px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 62px;
+}
+
+.first {
+    display: inline-block;
+    width: 754px;
+}
+
+h2 {
+    padding-top: 13px;
+    padding-bottom: 15px;
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    color: #003395;
+
+}
+
+.line {
+    padding-top: 16px;
+    padding-bottom: 34px;
+}
+
+.colortext {
+    color: #003395;
+}
+
+.second {
+    display: inline-block;
+    width: 362px;
+    padding-left: 30px;
+}
+
+.news {
+    border: 2px solid #33008D;
+    padding: 19px 19px 26px 19px;
+    margin-bottom: 55px;
+}
+
+h3 {
+    padding: 14px 17px;
+    background-color: #24B0FF;
+    color: #FFFFFF;
+}
+
+.one {
+    margin-bottom: 14px;
+}
+
+.ptwo {
+    line-height: 163.3%
+}
+
+.some {
+    border: 2px solid #33008D;
+    padding: 22px 19px 26px 19px;
+    margin-bottom: 158.4px;
+}
+
+.two {
+    margin-bottom: 22px;
+}
+
+ul {
+    list-style: none;
+    line-height: 163.3%
+}
+
+li a {
+    color: #30233D;
+}
+
+footer {
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+    padding-bottom: 83px;
+    padding-top: 45px;
+}
+
+.end {
+    text-align: right;
+    color: #FFFFFF;
+}

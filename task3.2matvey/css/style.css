@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../img/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-color: rgb(248, 248, 248);
+    font-family: georgia;
+    padding: 20px;
+}
+
+.logo{
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.dary{
+    display: inline-block;
+    width: 2px;
+    height: 85px;
+    background-image: linear-gradient(to top, rgb(248, 248, 248), rgb(168, 168, 168), rgb(248, 248, 248));
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.story{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.one{
+    color: rgb(23, 111, 133);
+}
